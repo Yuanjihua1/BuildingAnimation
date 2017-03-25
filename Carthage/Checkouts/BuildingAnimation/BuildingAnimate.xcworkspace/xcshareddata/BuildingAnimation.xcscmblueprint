@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "2729078D77F6463825775B6256549192C9DBBEE9",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "2729078D77F6463825775B6256549192C9DBBEE9" : 9223372036854775807,
+    "4E97ACA226B9EDC927F048EDB37B75B3E3EF0E3B" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "F6ABD019-8107-4021-8118-7F1DAC58261F",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "2729078D77F6463825775B6256549192C9DBBEE9" : "BuildingAnimate\/",
+    "4E97ACA226B9EDC927F048EDB37B75B3E3EF0E3B" : "BuildingAnimate\/BuildingAnimation\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "BuildingAnimation",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "BuildingAnimation.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Yuanjihua1\/BuildingAnimation.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "2729078D77F6463825775B6256549192C9DBBEE9"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Yuanjihua1\/BuildingAnimation.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "4E97ACA226B9EDC927F048EDB37B75B3E3EF0E3B"
+    }
+  ]
+}

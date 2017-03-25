@@ -11,7 +11,7 @@ import UIKit
 
 class RootViewController: UITableViewController {
     
-    var titles = ["ViewController","MoveByViewController","ScaleByViewController","RotateByViewController","TranslateByViewController","CornerViewController","BackColorViewController"]
+    var titles = ["ViewController" ,"Demo1ViewController" ,"MoveByViewController","ScaleByViewController","RotateByViewController","TranslateByViewController","CornerViewController","BackColorViewController"]
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -32,13 +32,14 @@ class RootViewController: UITableViewController {
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         
+        
         switch indexPath.row {
         case 0:
             let story = UIStoryboard.init(name: "Main", bundle: nil)
             let ctrl = story.instantiateViewController(withIdentifier: "ViewController")
             show(ctrl, sender: nil)
         case 1:
-            let ctrl = MoveByViewController(nibName: "MoveByViewController", bundle: nil)
+            let ctrl = Demo1ViewController(nibName: "Demo1ViewController", bundle: nil)
             show(ctrl, sender: nil)
         case 2:
             let ctrl = ScaleByViewController(nibName: "ScaleByViewController", bundle: nil)
@@ -54,6 +55,9 @@ class RootViewController: UITableViewController {
             show(ctrl, sender: nil)
         case 6:
             let ctrl = BackColorViewController(nibName: "BackColorViewController", bundle: nil)
+            show(ctrl, sender: nil)
+        case 7:
+            let ctrl = MoveByViewController(nibName: "MoveByViewController", bundle: nil)
             show(ctrl, sender: nil)
         default:
             break

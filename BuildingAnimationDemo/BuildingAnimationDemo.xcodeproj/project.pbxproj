@@ -28,6 +28,8 @@
 		22A2841D1E86B81A00A3D22F /* CornerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22A2841B1E86B81A00A3D22F /* CornerViewController.xib */; };
 		22A284221E86C38C00A3D22F /* BackColorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A284201E86C38C00A3D22F /* BackColorViewController.swift */; };
 		22A284231E86C38C00A3D22F /* BackColorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22A284211E86C38C00A3D22F /* BackColorViewController.xib */; };
+		22A2844B1E86EA4C00A3D22F /* Demo1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A284491E86EA4C00A3D22F /* Demo1ViewController.swift */; };
+		22A2844C1E86EA4C00A3D22F /* Demo1ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22A2844A1E86EA4C00A3D22F /* Demo1ViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -67,6 +69,8 @@
 		22A2841B1E86B81A00A3D22F /* CornerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CornerViewController.xib; sourceTree = "<group>"; };
 		22A284201E86C38C00A3D22F /* BackColorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackColorViewController.swift; sourceTree = "<group>"; };
 		22A284211E86C38C00A3D22F /* BackColorViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BackColorViewController.xib; sourceTree = "<group>"; };
+		22A284491E86EA4C00A3D22F /* Demo1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Demo1ViewController.swift; sourceTree = "<group>"; };
+		22A2844A1E86EA4C00A3D22F /* Demo1ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Demo1ViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +141,8 @@
 				22A2841B1E86B81A00A3D22F /* CornerViewController.xib */,
 				22A284201E86C38C00A3D22F /* BackColorViewController.swift */,
 				22A284211E86C38C00A3D22F /* BackColorViewController.xib */,
+				22A284491E86EA4C00A3D22F /* Demo1ViewController.swift */,
+				22A2844A1E86EA4C00A3D22F /* Demo1ViewController.xib */,
 			);
 			name = DemoCell;
 			sourceTree = "<group>";
@@ -203,6 +209,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				22A2840C1E8681EA00A3D22F /* Main.storyboard in Resources */,
+				22A2844C1E86EA4C00A3D22F /* Demo1ViewController.xib in Resources */,
 				22A2841D1E86B81A00A3D22F /* CornerViewController.xib in Resources */,
 				22A284071E8681D700A3D22F /* ScaleByViewController.xib in Resources */,
 				22A283F01E86819900A3D22F /* LaunchScreen.storyboard in Resources */,
@@ -231,6 +238,7 @@
 				22A2840E1E8681F300A3D22F /* ViewController.swift in Sources */,
 				22A283E61E86819900A3D22F /* AppDelegate.swift in Sources */,
 				22A284221E86C38C00A3D22F /* BackColorViewController.swift in Sources */,
+				22A2844B1E86EA4C00A3D22F /* Demo1ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

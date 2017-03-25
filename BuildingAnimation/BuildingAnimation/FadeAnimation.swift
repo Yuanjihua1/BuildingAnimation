@@ -8,12 +8,12 @@
 
 import UIKit
 
-public func fade(_ alpha: CGFloat , with duration : TimeInterval) -> AnimatState{
+public func fade(_ alpha: CGFloat , with duration : TimeInterval , options : UIViewAnimationOptions = []) -> AnimatState{
     return { view in
         
         view.animCount += 1
         
-        UIView.animate(withDuration: duration, delay: 0, options: [] , animations: {
+        UIView.animate(withDuration: duration, delay: 0, options: options , animations: {
             view.alpha = alpha
         }, completion: { _ in
             view.alpha = alpha

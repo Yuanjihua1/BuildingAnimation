@@ -18,8 +18,6 @@ class RotateByViewController: UIViewController {
     @IBAction func btnAction(sender: UIButton) {
         
         sender.excuteAnimate(
-//                rotateZ(by: CGFloat(M_PI_4), with: 1) + scale(by: 0.5, with: 1)
-//            =>  scale(by: 2, with: 1)
                 rotateY(by: CGFloat(M_PI ), with: 0.5)
             =>  rotateY(by: CGFloat(M_PI), with: 0.5)
             =>  rotateX(by: CGFloat(M_PI), with: 1)

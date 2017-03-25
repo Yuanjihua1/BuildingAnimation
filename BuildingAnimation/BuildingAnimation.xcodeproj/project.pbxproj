@@ -16,6 +16,8 @@
 		22A283D51E867E4400A3D22F /* Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A283D21E867E4400A3D22F /* Animation.swift */; };
 		22A283D61E867E4400A3D22F /* DoOtherAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A283D31E867E4400A3D22F /* DoOtherAnimation.swift */; };
 		22A283D71E867E4400A3D22F /* FadeAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A283D41E867E4400A3D22F /* FadeAnimation.swift */; };
+		22A284191E86B58800A3D22F /* CornerAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A284181E86B58800A3D22F /* CornerAnimation.swift */; };
+		22A2841F1E86C30B00A3D22F /* BackgroundColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A2841E1E86C30B00A3D22F /* BackgroundColor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		22A283D21E867E4400A3D22F /* Animation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Animation.swift; sourceTree = "<group>"; };
 		22A283D31E867E4400A3D22F /* DoOtherAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DoOtherAnimation.swift; sourceTree = "<group>"; };
 		22A283D41E867E4400A3D22F /* FadeAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FadeAnimation.swift; sourceTree = "<group>"; };
+		22A284181E86B58800A3D22F /* CornerAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CornerAnimation.swift; sourceTree = "<group>"; };
+		22A2841E1E86C30B00A3D22F /* BackgroundColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackgroundColor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +84,8 @@
 				22A283CB1E867E3900A3D22F /* ScaleAnimation.swift */,
 				22A283CC1E867E3900A3D22F /* TranslateAnimation.swift */,
 				22A283D31E867E4400A3D22F /* DoOtherAnimation.swift */,
+				22A284181E86B58800A3D22F /* CornerAnimation.swift */,
+				22A2841E1E86C30B00A3D22F /* BackgroundColor.swift */,
 			);
 			name = Source;
 			sourceTree = "<group>";
@@ -165,12 +171,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22A284191E86B58800A3D22F /* CornerAnimation.swift in Sources */,
 				22A283CD1E867E3900A3D22F /* MoveAnimation.swift in Sources */,
 				22A283CE1E867E3900A3D22F /* Operation.swift in Sources */,
 				22A283CF1E867E3900A3D22F /* RotateAnimation.swift in Sources */,
 				22A283D11E867E3900A3D22F /* TranslateAnimation.swift in Sources */,
 				22A283D61E867E4400A3D22F /* DoOtherAnimation.swift in Sources */,
 				22A283D51E867E4400A3D22F /* Animation.swift in Sources */,
+				22A2841F1E86C30B00A3D22F /* BackgroundColor.swift in Sources */,
 				22A283D71E867E4400A3D22F /* FadeAnimation.swift in Sources */,
 				22A283D01E867E3900A3D22F /* ScaleAnimation.swift in Sources */,
 			);
@@ -340,6 +348,7 @@
 				22A283C61E867E0400A3D22F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

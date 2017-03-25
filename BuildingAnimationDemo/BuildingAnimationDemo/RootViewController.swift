@@ -11,7 +11,7 @@ import UIKit
 
 class RootViewController: UITableViewController {
     
-    var titles = ["ViewController","MoveByViewController","ScaleByViewController","RotateByViewController","TranslateByViewController"]
+    var titles = ["ViewController","MoveByViewController","ScaleByViewController","RotateByViewController","TranslateByViewController","CornerViewController","BackColorViewController"]
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -48,6 +48,12 @@ class RootViewController: UITableViewController {
             show(ctrl, sender: nil)
         case 4:
             let ctrl = TranslateByViewController(nibName: "TranslateByViewController", bundle: nil)
+            show(ctrl, sender: nil)
+        case 5:
+            let ctrl = CornerViewController(nibName: "CornerViewController", bundle: nil)
+            show(ctrl, sender: nil)
+        case 6:
+            let ctrl = BackColorViewController(nibName: "BackColorViewController", bundle: nil)
             show(ctrl, sender: nil)
         default:
             break

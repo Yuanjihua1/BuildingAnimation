@@ -14,7 +14,8 @@ public typealias AnimatState = (UIView) -> UIView
 
 fileprivate var anim_count_key : Void!
 fileprivate var anim_comptele_handle_key : Void!
-public extension UIView {
+
+extension UIView {
     
     internal var animCount : Int {
         set{

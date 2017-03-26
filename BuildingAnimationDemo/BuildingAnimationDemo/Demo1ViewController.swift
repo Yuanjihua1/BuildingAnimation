@@ -12,9 +12,12 @@ import BuildingAnimation
 let ScreenWidth = UIScreen.main.bounds.size.width
 
 class Demo1ViewController: UIViewController {
-
+    
+    
+    
     @IBOutlet var btn : [UIButton]!
 
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -29,13 +32,30 @@ class Demo1ViewController: UIViewController {
 
     @IBAction func startAction(_ sender: UIButton) {
         
-        let anim = moveX(by: -50, with: 0.3 , options : .curveEaseOut) + fade(1, with: 1 , options : .curveEaseOut)
+        
+        sender.isEnabled = false
+        
+        sender.isSelected = !sender.isSelected
+        
+        let x : CGFloat = sender.isSelected ? -50 : 50
+        let alpha : CGFloat = sender.isSelected ? 1 : 0
+        
+        let anim = moveX(by: x, with: 0.3 , options : .curveEaseOut)
+                + fade(alpha, with: 1 , options : .curveEaseOut)
+        
+        
         
         for (index , item) in btn.enumerated() {
             item.excuteAnimate(
                     doOther(0.1 * Double(index), closure: nil)
                 =>  anim
+                =>  doOther(0, closure: { [weak sender] in
+                        sender?.isEnabled = true
+                    })
             )
         }
+        
+        
+        
     }
 }

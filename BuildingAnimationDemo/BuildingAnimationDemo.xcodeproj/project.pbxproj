@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		222C539B1E8AC85D00E531E3 /* BuildingAnimation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 222C539A1E8AC85D00E531E3 /* BuildingAnimation.framework */; };
 		22A283E61E86819900A3D22F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A283E51E86819900A3D22F /* AppDelegate.swift */; };
 		22A283F01E86819900A3D22F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22A283EE1E86819900A3D22F /* LaunchScreen.storyboard */; };
 		22A284011E8681D700A3D22F /* MoveByViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A283F71E8681D700A3D22F /* MoveByViewController.swift */; };
@@ -22,8 +23,6 @@
 		22A2840C1E8681EA00A3D22F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22A2840B1E8681EA00A3D22F /* Main.storyboard */; };
 		22A2840E1E8681F300A3D22F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A2840D1E8681F300A3D22F /* ViewController.swift */; };
 		22A284101E86820900A3D22F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22A2840F1E86820900A3D22F /* Assets.xcassets */; };
-		22A284141E86825000A3D22F /* BuildingAnimation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22A284121E86824600A3D22F /* BuildingAnimation.framework */; };
-		22A284151E86825000A3D22F /* BuildingAnimation.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 22A284121E86824600A3D22F /* BuildingAnimation.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		22A2841C1E86B81A00A3D22F /* CornerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A2841A1E86B81A00A3D22F /* CornerViewController.swift */; };
 		22A2841D1E86B81A00A3D22F /* CornerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22A2841B1E86B81A00A3D22F /* CornerViewController.xib */; };
 		22A284221E86C38C00A3D22F /* BackColorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A284201E86C38C00A3D22F /* BackColorViewController.swift */; };
@@ -39,7 +38,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				22A284151E86825000A3D22F /* BuildingAnimation.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -47,6 +45,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		222C539A1E8AC85D00E531E3 /* BuildingAnimation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BuildingAnimation.framework; path = "../../../Library/Developer/Xcode/DerivedData/BuildingAnimate-ftkffdsnvjromghfpyzgpfgshnui/Build/Products/Debug-iphonesimulator/BuildingAnimation.framework"; sourceTree = "<group>"; };
 		22A283E21E86819900A3D22F /* BuildingAnimationDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BuildingAnimationDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22A283E51E86819900A3D22F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		22A283EF1E86819900A3D22F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -64,7 +63,6 @@
 		22A2840B1E8681EA00A3D22F /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		22A2840D1E8681F300A3D22F /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		22A2840F1E86820900A3D22F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		22A284121E86824600A3D22F /* BuildingAnimation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BuildingAnimation.framework; path = "../../../Library/Developer/Xcode/DerivedData/BuildingAnimation-gkmnzdgyhkfxrodfbledmscpitto/Build/Products/Debug-iphonesimulator/BuildingAnimation.framework"; sourceTree = "<group>"; };
 		22A2841A1E86B81A00A3D22F /* CornerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CornerViewController.swift; sourceTree = "<group>"; };
 		22A2841B1E86B81A00A3D22F /* CornerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CornerViewController.xib; sourceTree = "<group>"; };
 		22A284201E86C38C00A3D22F /* BackColorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackColorViewController.swift; sourceTree = "<group>"; };
@@ -78,7 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				22A284141E86825000A3D22F /* BuildingAnimation.framework in Frameworks */,
+				222C539B1E8AC85D00E531E3 /* BuildingAnimation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -120,7 +118,7 @@
 		22A284111E86824600A3D22F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				22A284121E86824600A3D22F /* BuildingAnimation.framework */,
+				222C539A1E8AC85D00E531E3 /* BuildingAnimation.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";

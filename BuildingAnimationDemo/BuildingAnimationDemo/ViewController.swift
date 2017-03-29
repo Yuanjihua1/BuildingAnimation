@@ -34,11 +34,11 @@ class ViewController: UIViewController {
         img3.excuteAnimate(scale(by: 0.5, with: 0))
         img4.excuteAnimate(scale(by: 0.5, with: 0))
         img5.excuteAnimate(scale(by: 0.5, with: 0))
-        img1.excuteAnimate(rotateZ(by: CGFloat(M_PI), with: 0))
-        img2.excuteAnimate(rotateZ(by: CGFloat(M_PI), with: 0))
-        img3.excuteAnimate(rotateZ(by: CGFloat(M_PI), with: 0))
-        img4.excuteAnimate(rotateZ(by: CGFloat(M_PI), with: 0))
-        img5.excuteAnimate(rotateZ(by: CGFloat(M_PI), with: 0))
+        img1.excuteAnimate(rotateZ(by: CGFloat(Double.pi), with: 0))
+        img2.excuteAnimate(rotateZ(by: CGFloat(Double.pi), with: 0))
+        img3.excuteAnimate(rotateZ(by: CGFloat(Double.pi), with: 0))
+        img4.excuteAnimate(rotateZ(by: CGFloat(Double.pi), with: 0))
+        img5.excuteAnimate(rotateZ(by: CGFloat(Double.pi), with: 0))
     
     }
     
@@ -53,14 +53,14 @@ class ViewController: UIViewController {
         
         
         btn.excuteAnimate(
-            rotateZ(by: CGFloat(M_PI_4), with: 0.3)
+            rotateZ(by: CGFloat(Double.pi/4), with: 0.3)
         )
         
-        let commonPull = rotateZ(by: CGFloat(M_PI), with: 0.2)
+        let commonPull = rotateZ(by: CGFloat(Double.pi), with: 0.2)
                         => fade(0, with: 0.8) + scale(by: 0.5, with: 0.5)
                         + move(to: CGPoint(x: 140, y: 466), with: 0.3)
         
-        let commonPush =  rotateZ(by: CGFloat(M_PI), with: 1)
+        let commonPush =  rotateZ(by: CGFloat(Double.pi), with: 1)
                         + fade(1, with: 0.5)
         
         btn.isSelected = !btn.isSelected
@@ -107,17 +107,11 @@ class ViewController: UIViewController {
             animatView.excuteAnimate(
                 
                    fade(0.5 , with : 0.5)//在0.5秒内，半透明
-                => doOther(0, closure: { //空动画，不执行任何动画，但是可以在上一个动画结束后回调
-                        print("开始移动")
-                    })
+                => doOther(0){ print("开始移动") }//空动画，不执行任何动画，但是可以在上一个动画结束后回调
                 => move(to: .zero, with: 1)//1秒内移动到原点
-                => fade(1, with: 0.5)
-                    + moveX(to: 100, with: 0.5) //0.5秒内移动的同时，又变成不透明的状态
+                => fade(1, with: 0.5) + moveX(to: 100, with: 0.5) //0.5秒内移动的同时，又变成不透明的状态
                 => move(to: .init(x: 100, y: 100), with: 1)//1秒内移动到100，100
-                => doOther(0, closure: {//空动画，在一个动画结束后回调
-                        print("移动结束")
-                    })
-                
+                => doOther(0){ print("移动结束") }//空动画，在一个动画结束后回调
             )
     }
     
